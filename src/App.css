@@ -1,0 +1,53 @@
+html {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+}
+
+.search-form {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  padding: 0 20px;
+}
+
+.form-controls {
+  display: flex;
+  align-items: center;
+}
+
+.form-controls input[type="text"] {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-controls input[type="text"]:focus {
+  outline: none;
+  border-color: gray;
+  box-shadow: 0 2px 5px lightgray;
+}
+
+.form-controls label {
+  display: none;
+}
+
+#left {
+  display: grid;
+  width: 100vh;
+  height: 100vh;
+}
+
+#right {
+  display: flex;
+  width: 100vh;
+}
