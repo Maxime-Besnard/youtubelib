@@ -10,4 +10,4 @@ Elle permet :
 
 Elle ne permet pas d'ajouter ou de retirer de vidéos à la liste sans passer par le json.
 
-Le changement d'utilisateur n'est pas directement pris en charge, il faut pour cela remplacer la ligne 41 "var user = john" par "var user = mark'
+Le changement d'utilisateur n'est pas directement pris en charge, il faut pour cela remplacer la ligne 41 de "App.js" "var user = john" par "var user = mark'
