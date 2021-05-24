@@ -10,4 +10,6 @@ Elle permet :
 
 Elle ne permet pas d'ajouter ou de retirer de vidéos à la liste sans passer par le json.
 
-Le changement d'utilisateur n'est pas directement pris en charge, il faut pour cela remplacer la ligne 41 de "App.js" "var user = john" par "var user = mark'
+Le changement d'utilisateur n'est pas directement pris en charge, il faut pour cela remplacer la ligne 41 de "App.js" "var user = john" par "var user = mark"
+
+L'affichage des vidéos depuis le fichier json utilise uniquement les titres, donc un changement de titre ou une autre vidéo avec le même titre pourraient poser problème. Cela est du au fait que l'affichage fonctionne via l'utilisation de la fonction "search" de l'api youtube. Il existe bien une fonction "videos" qui permet notamment de récupérer les données d'une vidéo via son id (qui est unique et non modifiable), je n'ai malheuresement pas réussi à la faire fonctionner.
